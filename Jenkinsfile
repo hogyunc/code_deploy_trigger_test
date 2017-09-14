@@ -1,6 +1,6 @@
 node {
 
-	withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'jenkins_build_jumpcloud',
+	withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'jumpcloud_hogyunc',
     usernameVariable: 'ARTIFACTORY_USER', passwordVariable: 'ARTIFACTORY_PASSWORD']]) {
     stage 'Testing Code'
 	checkout scm
