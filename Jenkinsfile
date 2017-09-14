@@ -14,7 +14,7 @@ node {
           sh 'echo HELLO WORLD'
           stage 'DONE Good'
 
-      }
+      
     }
   }
 }
