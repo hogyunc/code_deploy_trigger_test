@@ -4,7 +4,7 @@ node {
     usernameVariable: 'ARTIFACTORY_USER', passwordVariable: 'ARTIFACTORY_PASSWORD']]) {
     stage 'Testing Code'
 	checkout scm
-    sh 'git submodule update --init'
+    sh 'ls'
     }
 
 
