@@ -1,6 +1,6 @@
 node {
 
-	withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'jumpcloud_hogyunc',
+	withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'jumpcloud-hogyunc',
     usernameVariable: 'ARTIFACTORY_USER', passwordVariable: 'ARTIFACTORY_PASSWORD']]) {
     stage 'Testing Code'
 	checkout scm
