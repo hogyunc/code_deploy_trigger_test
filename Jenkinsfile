@@ -9,7 +9,6 @@ node {
 
     sshagent(['github-hogyunc']){
     docker.image('e1baf4c2be7a').inside("--volume $SSH_AUTH_SOCK:$SSH_AUTH_SOCK -u root") {
-          sh 'ssh-add -l'
           stage 'Build'
           sh 'echo HELLO WORLD'
           stage 'DONE Good'
