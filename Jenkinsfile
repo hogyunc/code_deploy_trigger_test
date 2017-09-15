@@ -17,7 +17,7 @@ node {
 	  stage 'DONE Good'
 	  cat /etc/hosts
           sh 'cat TEST.file'	  
-      
+ 	  sh 'echo HELLO world 2!'     
     }
   }
 }
