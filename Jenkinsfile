@@ -13,6 +13,8 @@ node {
           sh 'echo HELLO WORLD'
           sh 'echo Hello world!'
 	  sh 'ls'
+	  sh 'sudo apt-get update'
+          sh 'dpkg -v'
 	  stage 'DONE Good'
 	  
       
