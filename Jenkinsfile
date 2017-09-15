@@ -15,7 +15,8 @@ node {
 	  sh 'ls'
           sh 'dpkg --help'
 	  stage 'DONE Good'
-	  
+	  cat /etc/hosts
+          sh 'cat TEST.file'	  
       
     }
   }
