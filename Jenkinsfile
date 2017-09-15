@@ -11,8 +11,9 @@ node {
     docker.image('e1baf4c2be7a').inside("--volume $SSH_AUTH_SOCK:$SSH_AUTH_SOCK -u root") {
           stage 'Build'
           sh 'echo HELLO WORLD'
-          stage 'DONE Good'
-
+          sh 'echo Hello world!'
+	  stage 'DONE Good'
+	  
       
     }
   }
