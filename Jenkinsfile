@@ -12,6 +12,7 @@ node {
           stage 'Build'
           sh 'echo HELLO WORLD'
           sh 'echo Hello world!'
+	  sh 'ls'
 	  stage 'DONE Good'
 	  
       
